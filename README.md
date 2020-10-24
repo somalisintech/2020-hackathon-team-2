@@ -1,5 +1,7 @@
 # TEAM NAME
 
+App deployed [here](http://somali-covid-communication-tool.surge.sh/)
+
 ## Problem we are addressing
 The Coronavirus pandemic is intensifying language access issues in healthcare – 
 A recent investigation revealed how non-English-speaking patients with COVID-19 – can be subject to delays and miscalculations in health care facilities, in part because physicians struggle to communicate with them. 
