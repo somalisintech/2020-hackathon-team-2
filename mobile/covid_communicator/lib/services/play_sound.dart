@@ -5,7 +5,7 @@ class play_sound {
   // Local is a short file already on file system
   Local(String file) {
     if (file == "") {
-      file = "coming_soon.mp3";
+      file = "comming_soon.mp3";
     }
     player.play(file);
   }

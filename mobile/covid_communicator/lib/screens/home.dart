@@ -48,6 +48,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 icon: FontAwesomeIcons.tv,
                 label: 'Entertainment',
               ),
+              onPress: () {
+                Navigator.pushNamed(context, '/entertainment');
+              },
             ),
           ),
           Expanded(

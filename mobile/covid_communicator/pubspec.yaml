@@ -61,6 +61,15 @@ flutter:
     - assets/pain_6.mp3
     - assets/pain_8.mp3
     - assets/pain_10.mp3
+    - assets/arm.mp3
+    - assets/chest.mp3
+    - assets/ears.mp3
+    - assets/eyes.mp3
+    - assets/head.mp3
+    - assets/comming_soon.mp3
+    - assets/bbc_somalia.wav
+    - assets/quran_sound.mp3
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
