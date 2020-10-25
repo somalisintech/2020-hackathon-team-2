@@ -3,6 +3,8 @@ import 'package:covid_communicator/screens/entertainment.dart';
 import 'package:covid_communicator/screens/family.dart';
 import 'package:covid_communicator/screens/home.dart';
 import 'package:covid_communicator/screens/pain.dart';
+import 'package:covid_communicator/screens/pain_position.dart';
+import 'package:covid_communicator/screens/pain_scale.dart';
 import 'package:covid_communicator/screens/wants_needs.dart';
 import 'package:flutter/material.dart';
 
@@ -25,6 +27,8 @@ class _CovidCommunactorState extends State<CovidCommunactor> {
         '/entertainment': (context) => EntertainmentScreen(),
         '/family': (context) => FamilyScreen(),
         '/pain': (context) => PainScreen(),
+        '/pain_position': (context) => PainPositionScreen(),
+        '/pain_scale': (context) => PainScaleScreen(),
         '/wants_needs': (context) => WantsNeedsScreen(),
       },
     );

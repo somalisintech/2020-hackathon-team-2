@@ -23,6 +23,9 @@ class _HomeScreenState extends State<HomeScreen> {
           Expanded(
             child: ReusableCard(
               color: kMenuButtonActiveColor,
+              onPress: () {
+                Navigator.pushNamed(context, '/pain');
+              },
               cardChild: IconContent(
                 icon: FontAwesomeIcons.solidHospital,
                 label: 'Pain',
