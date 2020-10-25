@@ -4,6 +4,9 @@ class play_sound {
   AudioCache player = AudioCache();
   // Local is a short file already on file system
   Local(String file) {
+    if (file == "") {
+      file = "coming_soon.mp3";
+    }
     player.play(file);
   }
 
