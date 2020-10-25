@@ -28,7 +28,7 @@ class _CovidCommunactorState extends State<CovidCommunactor> {
         '/family': (context) => FamilyScreen(),
         '/pain': (context) => PainScreen(),
         '/pain_position': (context) => PainPositionScreen(),
-        '/pain_scale': (context) => PainScaleScreen(),
+        '/pain_scales': (context) => PainScaleScreen(),
         '/wants_needs': (context) => WantsNeedsScreen(),
       },
     );

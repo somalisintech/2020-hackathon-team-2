@@ -32,7 +32,7 @@ class _PainScreenState extends State<PainScreen> {
                     ),
                     Image.asset(
                       'assets/pain_scales.png',
-                      width: 500.0,
+                      width: 300.0,
                     ),
                     Text(
                       "Pain Scale",
