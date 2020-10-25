@@ -22,7 +22,7 @@ class Key {
   // The commands this button can do
 
   // Key constructor
-  Key({this.name, this.label, this.img, this.actions}) {
+  Key({this.name, this.label, this.img, this.audio, this.actions}) {
     this.uuid = UUID().New();
   }
 }
