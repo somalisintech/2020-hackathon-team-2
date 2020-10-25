@@ -24,8 +24,35 @@ class _HomeScreenState extends State<HomeScreen> {
             child: ReusableCard(
               color: kMenuButtonActiveColor,
               cardChild: IconContent(
-                icon: FontAwesomeIcons.mars,
-                label: 'MALE',
+                icon: FontAwesomeIcons.solidHospital,
+                label: 'Pain',
+              ),
+            ),
+          ),
+          Expanded(
+            child: ReusableCard(
+              color: kMenuButtonActiveColor,
+              cardChild: IconContent(
+                icon: FontAwesomeIcons.baby,
+                label: 'Wants/Needs',
+              ),
+            ),
+          ),
+          Expanded(
+            child: ReusableCard(
+              color: kMenuButtonActiveColor,
+              cardChild: IconContent(
+                icon: FontAwesomeIcons.tv,
+                label: 'Entertainment',
+              ),
+            ),
+          ),
+          Expanded(
+            child: ReusableCard(
+              color: kMenuButtonActiveColor,
+              cardChild: IconContent(
+                icon: FontAwesomeIcons.solidSmile,
+                label: 'About',
               ),
             ),
           ),
