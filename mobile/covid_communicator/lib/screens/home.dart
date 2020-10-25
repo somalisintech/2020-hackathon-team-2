@@ -1,6 +1,7 @@
 import 'package:covid_communicator/components/icon_content.dart';
 import "package:covid_communicator/components/reusable_card.dart";
 import 'package:covid_communicator/constants.dart';
+import 'package:covid_communicator/services/play_sound.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -39,6 +40,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 icon: FontAwesomeIcons.baby,
                 label: 'Wants/Needs',
               ),
+              onPress: () {
+                play_sound().Local('');
+              },
             ),
           ),
           Expanded(
@@ -60,6 +64,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 icon: FontAwesomeIcons.solidSmile,
                 label: 'About',
               ),
+              onPress: () {
+                Navigator.pushNamed(context, '/about');
+              },
             ),
           ),
         ],
