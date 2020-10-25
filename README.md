@@ -1,6 +1,4 @@
-# TEAM NAME
-
-App deployed [here](http://somali-covid-communication-tool.surge.sh/)
+# HADAL
 
 ## Problem we are addressing
 The Coronavirus pandemic is intensifying language access issues in healthcare – 
@@ -12,6 +10,8 @@ Lack of the ability to communicate puts patients at greater risk of receiving po
 
 ## Our Solution 
 
-We created AAC (Augmented Alternative Control) screens that can be used by Somalis in ICU (intensive care unit) settings, to communicate important information with medical personnel. The screens are focused on solving some specific form of communication, such as “needs”, “wants”, “medical questions”, “pain assessment”. 
+We've created AAC (Augmented Alternative Control) screens that can be used by Somalis in ICU (intensive care unit) settings, to communicate important information with medical personnel. The screens are focused on solving some specific form of communication, such as “needs”, “wants”, “medical questions”, “pain assessment”. 
+
+The application is available on web, Android & iOS.
 
 
