@@ -32,6 +32,9 @@ dependencies:
   # generating unique strings for our UUID data structure
   uuid: 2.2.2
 
+  # audio playing, only supports android/ios
+  audioplayers: ^0.10.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -47,10 +50,11 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+
+
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
