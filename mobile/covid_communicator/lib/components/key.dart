@@ -19,7 +19,7 @@ class Key {
   // The commands this button can do
 
   // Key constructor
-  Key({this.name, this.label, this.img}) {
+  Key({this.name, this.label, this.img, this.actions}) {
     this.uuid = UUID().New();
   }
 }
