@@ -15,6 +15,9 @@ class Key {
   String img;
   // Image URI
 
+  String audio;
+  // audio recording URI
+
   List<String> actions;
   // The commands this button can do
 
