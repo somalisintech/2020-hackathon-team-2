@@ -1,8 +1,6 @@
-import 'package:covid_communicator/components/icon_content.dart';
 import "package:covid_communicator/components/reusable_card.dart";
 import 'package:covid_communicator/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class PainScreen extends StatefulWidget {
   @override
@@ -24,24 +22,49 @@ class _PainScreenState extends State<PainScreen> {
             child: ReusableCard(
               color: kMenuButtonActiveColor,
               onPress: () {
-                Navigator.pushNamed(context, '/pain_position');
+                Navigator.pushNamed(context, '/pain_scales');
               },
-              cardChild: Column(
-                children: [
-                  Image.asset(
-                    'assets/pain_0.png',
-                    width: 500.0,
-                  ),
-                ],
+              cardChild: Expanded(
+                child: Column(
+                  children: [
+                    Divider(
+                      height: 80.0,
+                    ),
+                    Image.asset(
+                      'assets/pain_scales.png',
+                      width: 500.0,
+                    ),
+                    Text(
+                      "Pain Scale",
+                      style: kLabelTextStyle,
+                    )
+                  ],
+                ),
               ),
             ),
           ),
           Expanded(
             child: ReusableCard(
               color: kMenuButtonActiveColor,
-              cardChild: IconContent(
-                icon: FontAwesomeIcons.baby,
-                label: 'Pain Scale',
+              onPress: () {
+                Navigator.pushNamed(context, '/pain_position');
+              },
+              cardChild: Expanded(
+                child: Column(
+                  children: [
+                    Divider(
+                      height: 80.0,
+                    ),
+                    Image.asset(
+                      'assets/pain_positions.png',
+                      width: 200.0,
+                    ),
+                    Text(
+                      "Pain Positions",
+                      style: kLabelTextStyle,
+                    )
+                  ],
+                ),
               ),
             ),
           ),
