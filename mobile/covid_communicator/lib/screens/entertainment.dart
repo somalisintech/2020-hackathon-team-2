@@ -14,7 +14,7 @@ class _EntertainmentScreenState extends State<EntertainmentScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: kMainColor,
-        title: Text("Somali ICU Covid Communication"),
+        title: Text("Entertainment"),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,

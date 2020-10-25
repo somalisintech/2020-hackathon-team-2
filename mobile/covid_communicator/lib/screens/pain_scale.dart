@@ -15,7 +15,7 @@ class _PainScaleScreenState extends State<PainScaleScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: kMainColor,
-        title: Text("Somali ICU Covid Communication"),
+        title: Text("How much does it hurt?"),
       ),
       body: Container(
         child: SafeArea(

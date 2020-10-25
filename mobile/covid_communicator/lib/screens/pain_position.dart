@@ -15,7 +15,7 @@ class _PainPositionScreenState extends State<PainPositionScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: kMainColor,
-        title: Text("Somali ICU Covid Communication"),
+        title: Text("Where does it hurt?"),
       ),
       body: Container(
         child: SafeArea(

@@ -15,7 +15,7 @@ class _WantsNeedsScreenState extends State<WantsNeedsScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: kMainColor,
-        title: Text("Somali ICU Covid Communication"),
+        title: Text("What do you want/need?"),
       ),
       body: Container(
         child: SafeArea(

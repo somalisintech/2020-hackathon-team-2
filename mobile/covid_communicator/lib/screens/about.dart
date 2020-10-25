@@ -14,7 +14,7 @@ class _AboutScreenState extends State<AboutScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: kMainColor,
-        title: Text("Somali ICU Covid Communication"),
+        title: Text("About US"),
       ),
       body: Container(
         child: SafeArea(
@@ -32,7 +32,11 @@ class _AboutScreenState extends State<AboutScreen> {
                     ),
                     Text(
                       "Authors: " + AboutUs.authors.toString(),
-                      style: kLabelTextStyle,
+                      style: TextStyle(
+                        fontSize: 16.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
                     ),
                     Divider(
                       height: 10.0,
@@ -42,21 +46,25 @@ class _AboutScreenState extends State<AboutScreen> {
                     ),
                     Text(
                       "Description: " + AboutUs.description,
-                      style: kLabelTextStyle,
+                      style: TextStyle(
+                        fontSize: 13.0,
+                        fontWeight: FontWeight.normal,
+                        color: Colors.white,
+                      ),
                     ),
                     Divider(
                       height: 10.0,
                     ),
                     Text(
                       "Site: " + AboutUs.url,
-                      style: kLabelTextStyle,
+                      style: TextStyle(
+                        fontSize: 13.0,
+                        fontWeight: FontWeight.normal,
+                        color: Colors.white,
+                      ),
                     ),
                     Divider(
                       height: 10.0,
-                    ),
-                    Text(
-                      "Authors: " + AboutUs.createdAt.toString(),
-                      style: kLabelTextStyle,
                     ),
                     Divider(
                       height: 10.0,

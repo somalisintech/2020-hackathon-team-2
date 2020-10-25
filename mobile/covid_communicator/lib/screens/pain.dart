@@ -13,7 +13,7 @@ class _PainScreenState extends State<PainScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: kMainColor,
-        title: Text("Somali ICU Covid Communication"),
+        title: Text("Pain Assessment"),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
