@@ -1,3 +1,7 @@
+import 'package:covid_communicator/components/reusable_card.dart';
+import 'package:covid_communicator/constants.dart';
+import 'package:covid_communicator/data/wants_needs_data.dart';
+import 'package:covid_communicator/services/play_sound.dart';
 import 'package:flutter/material.dart';
 
 class WantsNeedsScreen extends StatefulWidget {
@@ -13,7 +17,7 @@ class _WantsNeedsScreenState extends State<WantsNeedsScreen> {
         backgroundColor: kMainColor,
         title: Text("Somali ICU Covid Communication"),
       ),
-       body: Container(
+      body: Container(
         child: SafeArea(
           child: GridView.count(
             // Create a grid with 2 columns. If you change the scrollDirection to
@@ -31,14 +35,14 @@ class _WantsNeedsScreenState extends State<WantsNeedsScreen> {
                           height: 10.0,
                         ),
                         Image.asset(
-                          WantsNeeds.keys[index].image,
+                          WantsNeeds.keys[index].img,
                           width: 60.0,
                         ),
                         Divider(
                           height: 10.0,
                         ),
                         Text(
-                          WantsNeeds.keys[index].description,
+                          WantsNeeds.keys[index].label,
                           style: kLabelTextStyle,
                         )
                       ],
